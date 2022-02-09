@@ -1,0 +1,4 @@
+INFO  | 2022-02-10 02:26:16 - method=[POST] Request path=[/checkId] body=[DataRequest(id=1)]
+INFO  | 2022-02-10 02:26:16 - method=[POST] Response path=[/checkId] responseBody=[DataResponse(fio=Test Testov)] 
+INFO  | 2022-02-10 02:26:39 - method=[POST] Request path=[/checkId] body=[DataRequest(id=2)]
+INFO  | 2022-02-10 02:26:39 - method=[POST] Response path=[/checkId] responseBody=[null]
