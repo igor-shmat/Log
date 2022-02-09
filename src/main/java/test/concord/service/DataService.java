@@ -7,7 +7,7 @@ import test.concord.dto.response.DataResponse;
 @Service
 public class DataService {
     public DataResponse processing(DataRequest dataRequest) {
-        if (dataRequest != null && dataRequest.getId() == 1) {
+        if (dataRequest != null && dataRequest.getId() != null &&dataRequest.getId() == 1) {
             DataResponse dataResponse = new DataResponse();
             dataResponse.setFio("Test Testov");
             return dataResponse;
